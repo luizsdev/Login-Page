@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  box-shadow: 30px -10px rgb(169, 198, 218);
+  border-radius: 20px;
+  border: 1px solid grey;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  position: relative;
+}
+body {
+  background: linear-gradient(15deg, rgb(51, 138, 209), rgb(31, 7, 61));
+}
+.inputs {
+  text-align: center;
+  margin-top: 120px;
+}
+input {
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  width: 80%;
+  padding: 12px;
+  margin-top: 10px;
+  z-index: 1;
+}
+p {
+  color: rgb(95, 125, 189);
+  font-family: "Smooch Sans";
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+button {
+  border: 0.5px solid grey;
+  background-color: rgba(207, 223, 230, 0.856);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  width: 80%;
+}
+#trig {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1200px;
+  opacity: 50%;
+}
+.message{
+  display: none;
+  margin-top: 200px;
+}
+#voltar {
+  display: none;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 30px;
+}

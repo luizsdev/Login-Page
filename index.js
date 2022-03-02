@@ -47,8 +47,8 @@ login.addEventListener('click', (email, senha) => {
         segredo.style.display = "none";
         titulo.style.display = "none";
         voltar.style.display = "inline-block";
-    }).catch(e=>{
-            console.log(e)
+    }).catch(()=>{
+            alert("EMAIL OU SENHA INCORRETA")
     })
         })
 
